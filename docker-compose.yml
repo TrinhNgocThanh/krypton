@@ -3,20 +3,20 @@ networks:
     external: true
 
 services:
-  krypton-demo:
-    image: digisquad/cssninja.krypton-demo:latest
+  MyLinks-demo:
+    image: digisquad/cssninja.MyLinks-demo:latest
     networks:
       - cssninja-services
     restart: 'unless-stopped'
     labels:
       traefik.enable: true
       traefik.docker.network: 'cssninja-services'
-      traefik.http.routers.krypton-demo.entrypoints: 'http'
-      traefik.http.routers.krypton-demo.rule: 'Host(`krypton.${HOST:-127.0.0.1.nip.io}`)'
-      traefik.http.routers.krypton-demo.middlewares: 'https-redirect@file'
-      traefik.http.services.krypton-demo-https.loadbalancer.server.port: 8080
-      traefik.http.routers.krypton-demo-https.rule: 'Host(`krypton.${HOST:-127.0.0.1.nip.io}`)'
-      traefik.http.routers.krypton-demo-https.tls: true
-      traefik.http.routers.krypton-demo-https.entrypoints: 'https'
-      traefik.http.routers.krypton-demo-https.tls.certresolver: 'http'
+      traefik.http.routers.MyLinks-demo.entrypoints: 'http'
+      traefik.http.routers.MyLinks-demo.rule: 'Host(`MyLinks.${HOST:-127.0.0.1.nip.io}`)'
+      traefik.http.routers.MyLinks-demo.middlewares: 'https-redirect@file'
+      traefik.http.services.MyLinks-demo-https.loadbalancer.server.port: 8080
+      traefik.http.routers.MyLinks-demo-https.rule: 'Host(`MyLinks.${HOST:-127.0.0.1.nip.io}`)'
+      traefik.http.routers.MyLinks-demo-https.tls: true
+      traefik.http.routers.MyLinks-demo-https.entrypoints: 'https'
+      traefik.http.routers.MyLinks-demo-https.tls.certresolver: 'http'
 

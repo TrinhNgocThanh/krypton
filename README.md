@@ -1,15 +1,15 @@
-![Krypton Screenshot](https://media.cssninja.io/products/krypton/product.png "Krypton")
+![MyLinks Screenshot](https://media.cssninja.io/products/MyLinks/product.png "MyLinks")
 
-# 👋 Krypton
+# 👋 MyLinks
 
-> Krypton is a free ICO / Crypto template built by [cssninjaStudio](https://cssninja.io).
+> MyLinks is a free ICO / Crypto template built by [cssninjaStudio](https://cssninja.io).
 
 [![cssninja-discord](https://img.shields.io/discord/785473098069311510?label=join%20us%20on%20discord&color=6944EC)](https://go.cssninja.io/discord)
 
 ## ✌️ preview
 
-Check out the live demo by clicking [here](https://krypton.cssninja.io). 
-Krypton is built with [Astro](https://astro.build), [Bulma](https://bulma.io) and [Alpine JS](https://github.com/alpinejs/alpine).
+Check out the live demo by clicking [here](https://MyLinks.cssninja.io). 
+MyLinks is built with [Astro](https://astro.build), [Bulma](https://bulma.io) and [Alpine JS](https://github.com/alpinejs/alpine).
 
 ## 👍 Features
 
